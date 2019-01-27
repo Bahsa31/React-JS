@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './Users.css'
 
 class Users extends Component{
     render(){
         return(
-             <div>
+             <div className="User">
                  React Programming_User
             </div>
         )    
